@@ -7,5 +7,5 @@ WayFarer is a public bus transportation booking server. You are required to deve
 - Node
 - Express
 - GraphQl
-- TypeORM
+- SequelizeORM
 - Docker
