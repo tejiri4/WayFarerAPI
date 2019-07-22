@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {
+          "utils": "./src/utils/",
+          "config": "./src/config/",
+          "db": "./src/db/",
+          "test": "./src/test/"
+        }
+      }
+    ]
+  ]
+}
