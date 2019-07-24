@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "undomigrate": "babel-node node_modules/.bin/sequelize db:migrate:undo:all",
+    "seed": "babel-node node_modules/.bin/sequelize db:seed:all",
     "migrate": "npm run undomigrate && babel-node node_modules/.bin/sequelize db:migrate",
     "dev": "nodemon --exec babel-node ./src/index.js",
     "clean": "rm -rf build && mkdir build",
