@@ -1,12 +1,6 @@
 {
-  "addons": [
-    "heroku-postgresql"
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ],
+  "name": "WayFarerAPI",
+  "scripts": {},
   "env": {
     "DATABASE_URL_DEV": {
       "required": true
@@ -20,8 +14,13 @@
       "quantity": 1
     }
   },
-  "name": "WayFarerAPI",
-  "scripts": {
-  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
   "stack": "heroku-18"
 }
