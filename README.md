@@ -22,3 +22,6 @@ WayFarer is a public bus transportation booking server. You are required to deve
 - Run yarn install or npm install 
 
 - Run yarn run dev or npm run dev
+
+
+Link to Heroku APP: https://wayfarer-staging-app.herokuapp.com/
