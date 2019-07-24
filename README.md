@@ -11,5 +11,14 @@ WayFarer is a public bus transportation booking server. You are required to deve
 - Express
 - GraphQl
 - SequelizeORM
-- Docker
-- CircleCI
+- Travis
+
+### How to set up the project
+
+- Git clone the repo
+
+- Create a .env file and add the following variable as specified in the .envSample
+
+- Run yarn install or npm install 
+
+- Run yarn run dev or npm run dev
